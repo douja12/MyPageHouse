@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+
+	<link rel="stylesheet" type="text/css" href="MiEstilo4.css">
+	<img src="Image/perfil.jpg" id ="img1">
+
+
+</head>
+<body>
+
+	<h1>
+
+		<form action="index.html" method="post">
+		Cerrar Sesion
+		<input type=image src="Image/cerrar.jpg" id ="img2" >
+
+
+
+
+</form>
+	</h1>
+	<h2>
+	<pre> <a href="Acceder.html" /> Área Personal	</a>		<a href="MiCasa.html" />Mi casa	</a> 		<a href="Configuracion.html" />Configuración</a> </pre>
+	</h2>
+
+<div id="incremento">
+<script language="JavaScript">
+var contador=0;
+function incrementar() {
+if(contador==3)
+alert('Maximo permitido alcanzado: 3');
+else {
+contador++;
+alert('El número de cuartos deseados :' + contador);}
+}
+function decrementar() {
+if(contador==0)
+alert('Minimo permitido alcanzado: 0');
+else {
+contador--;
+alert('El número de cuartos deseados :' + contador);}
+}
+</script>
+<form>
+<input type="button" onClick="incrementar()" value="+">
+<input type="button" onClick="decrementar()" value="-">
+<br></br>
+<input type="button" onClick="incrementar()" value="+">
+<input type="button" onClick="decrementar()" value="-">
+<br></br>
+<input type="button" onClick="incrementar()" value="+">
+<input type="button" onClick="decrementar()" value="-">
+<br></br>
+<input type="button" onClick="incrementar()" value="+">
+<input type="button" onClick="decrementar()" value="-">
+
+
+<input type="submit" class="bu" value="ContactaNos"
+onclick="this.form.action='contacto.html';this.form.submit();" >
+
+<input type="submit" class="bu2" value="Meter Codigo Cámara"
+onclick="this.form.action='contacto.html';this.form.submit();" >
+
+</form>
+
+
+</div>
+
+
+<div id ="añadir">
+AÑADIR UNA HABITACIÓN
+<br></br>
+AÑADIR UN BAÑO
+<br></br>
+AÑADIR UN COMEDOR
+<br></br>
+AÑADIR UNA COCINA
+</div>
+
+
+</body>
+</html>
