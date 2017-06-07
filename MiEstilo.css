@@ -1,0 +1,103 @@
+
+
+
+
+h1{
+font-family:  "Times New Roman";
+font-size:30px;
+color:white;
+margin-left:110px;
+
+}
+
+h2{
+font-family:  "Times New Roman";
+font-size:15px;
+color:white;
+margin-top:-25px;
+margin-left:250px;
+}
+
+h3{
+position: absolute;
+font-size:25px;
+font-family:  Arial;
+margin-left:110px;
+margin-top:200px;
+color:#2E9AFE;
+
+
+}
+
+#header{
+
+position: absolute;
+
+
+
+}
+
+
+form{
+position: absolute;
+margin-top:250px;
+margin-left:110px;
+
+}
+.button{
+position: absolute;
+color : white;
+background-color:#31B404;
+}
+
+
+
+hr.hor{
+position: absolute;
+color: #D8D8D8;
+margin-top:130px;
+border-left :1345px solid;
+border-bottom: 2px solid #ccc;
+
+
+}
+
+hr.ver{
+position: absolute;
+width:2px;
+height:500px;
+margin-left:500px;
+border-radius: 5px;
+margin-top :155px;
+}
+
+div{
+position: absolute;
+
+background-size: 300px 800px;
+background-color:#2E9AFE;
+height:127px;
+width:100%;
+
+}
+
+
+#imagen{  
+
+width:  600px; 
+height: 400px; 
+margin-top:210px;
+margin-left:620px;
+border: 6px solid #D8D8D8;
+border-radius: 5px ;
+
+ }
+
+.Contactanos
+{
+margin-top:700px;
+background-color:white;
+font-family:  "Arial";
+font-size:  15px;
+
+}

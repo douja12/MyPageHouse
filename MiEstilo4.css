@@ -1,0 +1,259 @@
+h1{
+		position: absolute;
+		margin-left:1150px;
+		font-size:20px;
+		color:#2E9AFE;
+
+}
+h2{
+		position: absolute;
+		font-size:25px;
+		color:#585858;
+		margin-left:130px;
+		margin-top:90px;
+		font-family:  "serif ";
+		border-style: solid;
+		border-width: 5px;
+		border-left:50px;
+		border-right:50px;
+}
+h3{
+		position: absolute;
+		color:black;
+		margin-left:60px;
+		margin-top:250px;
+
+}
+h4{
+		position: absolute;
+		margin-left:230px;
+		margin-top:210px;
+		font-size:20px;
+		color:#2E9AFE;
+
+}
+#img1{
+		position: absolute;
+		margin-left:1100px;
+
+}
+
+#img2{
+		position: absolute;
+		margin-left:140px;
+		margin-top:-25px;
+}
+   
+a{
+
+		text-decoration:none;
+		color:#585858;
+}
+
+#ultimos{
+		position: absolute;
+		margin-top:262px;
+		font-weight: bold;
+		font-size:27px;
+
+
+}
+
+#miembro1{
+
+
+		margin-top:580px;
+		margin-left:860px;
+		position: absolute;
+		color : white;
+		background-color:#31B404;
+}
+
+#miembro2{
+
+
+		margin-top:580px;
+		margin-left:320px;
+		
+		color : white;
+		background-color:#31B404;
+}
+
+#añadir{
+		position: absolute;
+		font-size:25px;
+		color:#585858;
+		margin-left:130px;
+		margin-top:290px;
+		font-family:  "serif ";
+
+}
+
+
+#incremento{
+
+		position: absolute;
+		font-size:25px;
+		color:#585858;
+		margin-left:530px;
+		margin-top:290px;
+		font-family:  "serif ";
+
+}
+
+.bu{
+		position: absolute;
+		font-size:25px;
+		margin-left:530px;
+		margin-top:90px;
+		font-family:  "serif ";		
+		color : white;
+		background-color:#31B404;
+
+}
+
+.bu2{
+		position: absolute;
+		font-size:25px;
+		margin-left:-335px;
+		margin-top:90px;
+		font-family:  "serif ";		
+		color : white;
+		background-color:#31B404;
+
+}
+
+.Enviar{
+
+
+		position: absolute;
+		font-size:15px;
+		margin-left:230px;
+		margin-top:250px;
+		font-family:  "serif ";		
+		color : black;
+		
+}
+
+#button3{
+		position: absolute;
+		font-size:25px;
+		margin-top:15px;
+		font-family:  "serif ";		
+		color : white;
+		background-color:#31B404;
+
+}
+
+#message2{
+
+		position: absolute;
+		font-size:25px;
+		color:#585858;
+		margin-left:530px;
+		margin-top:-290px;
+		font-family:  "serif ";
+
+}
+
+#button4{
+		position: absolute;
+		font-size:25px;
+		margin-top:15px;
+		margin-left:530px;
+		font-family:  "serif ";		
+		color : white;
+		background-color:#31B404;
+
+}
+
+
+
+#button5{
+
+		position: absolute;
+		font-size:25px;
+		margin-top:190px;
+		margin-left:80px;
+		font-family:  "serif ";	
+		color : white;
+		background-color:#31B404;
+
+
+}
+
+#button6{
+
+		position: absolute;
+		font-size:25px;
+		margin-top:290px;
+		margin-left:130px;
+		font-family:  "serif ";	
+		color : white;
+		background-color:#31B404;
+
+
+}
+
+#button7{
+
+		position: absolute;
+		font-size:25px;
+		margin-top:390px;
+		margin-left:130px;
+		font-family:  "serif ";	
+		color : white;
+		background-color:#31B404;
+
+
+}
+
+
+
+hr.ver{
+		position: absolute;
+		width:2px;
+		height:500px;
+		margin-left:500px;
+		border-radius: 5px;
+		margin-top :192px;
+}
+
+
+#ultimos2{
+		position: absolute;
+		margin-top:-200px;
+		margin-left=190px;
+		font-weight: bold;
+		font-size:27px;
+
+
+}
+
+
+.Names{
+		position: absolute;
+		margin-top:190px;
+}
+
+.E-mails{
+		position: absolute;
+		margin-top:192px;
+
+}
+
+.Apellido{
+		position: absolute;
+		margin-top:192px;
+
+}
+#imagen{  
+		position: absolute;
+		width:  600px; 
+		height: 400px; 
+		margin-top:210px;
+		margin-left:620px;
+		border: 6px solid #D8D8D8;
+		border-radius: 5px ;
+
+ }

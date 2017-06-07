@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<TITLE>
+
+			CONTROL HOUSE  C.H
+
+	</TITLE>
+
+	<link rel="stylesheet" type="text/css" href="MiEstilo.css">
+
+	<script language="javascript">
+
+	step=0;
+	function autoImage() {
+	if (step < 3) {step++;}
+	else {step=0;}
+	if (step==0)
+	{a.src="Image/control1.jpg";}
+	if (step==1)
+	{a.src="Image/control2.jpg";}
+	setTimeout("autoImage()", 3000); <!-- Delay de 3 segundos-->
+	if (step==2)
+	{a.src="Image/control3.jpg";}
+	}
+
+
+	</script>
+
+
+
+
+
+</head>
+
+<body onLoad="autoImage();" >
+
+
+			<div id="imagen" >
+			<img src="" id="a" >
+
+			</div >
+
+
+			<div id="header">
+			<h1>
+				ControLHouse  C.H
+			</h1>
+
+			<h2>
+				Remote Control
+			</h2>
+
+
+			</div>
+			<h3>
+				Iniciar Sesión
+			</h3>
+
+
+
+
+		<form   name="Acceder" method="post" >
+
+			  User<br>
+			  <input type="text" name="User"><br>
+			  Passwd<br>
+			  <input type="password" name="Passwd"><br><br>
+
+			  <input type="submit" value="Acceso a Mi casa" class="button"
+			   onclick="this.form.action='Acceder.html';this.form.submit();" >
+
+			  <br></br><br></br><br></br><br></br>
+
+			  No tengo una cuenta en CONTROL HOUSE <br></br>
+			  <input type="submit" value="Registrase" class="button"
+			  onclick="this.form.action='Registrar.html';this.form.submit();" >
+
+		</form>
+
+
+
+
+
+
+
+
+<hr/ class="hor">
+<hr/ class="ver">
+	<div class="Contactanos">
+
+	<pre> <b> 			INOFRMACIÓN 		ACERCA DE NOSOTROS	CONTACTANOS	PREGUNTAS FRECUENTES </b></pre>
+
+	</div>
+
+
+</body>
+</html>

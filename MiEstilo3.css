@@ -1,0 +1,19 @@
+body{
+
+margin-left:80px;
+}
+
+h1{
+
+margin-top:80px;
+margin-left:110px;
+color:#2E9AFE;
+font-size:30px;
+}
+
+.button{
+position: absolute;
+color : white;
+background-color:#31B404;
+
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="MiEstilo2.css">
+
+	<script language="javascript">
+
+			step=0;
+			function autoImage() {
+			if (step < 3) {step++;}
+			else {step=0;}
+			if (step==0)
+			{a.src="Image/control1.jpg";}
+			if (step==1)
+			{a.src="Image/control2.jpg";}
+			setTimeout("autoImage()", 3000); <!-- Delay de 3 segundos-->
+			if (step==2)
+			{a.src="Image/control3.jpg";}
+			}
+
+
+	</script>
+
+
+</head>
+
+<body onLoad="autoImage();">
+
+		    <div id="imagen" >
+			<img src="" id="a" >
+
+			</div >
+
+			<div id="header">
+			<h1>
+				ControLHouse  C.H
+			</h1>
+
+			<h2>
+				Remote Control
+			</h2>
+			</div>
+
+
+			<h3>
+			Registrarse
+			</h3>
+
+			<h4>
+			Regístrese con nosotros para obtener una cuenta ControLHouse
+			</h4>
+
+
+			<form action="RegistroCompletado.html">
+
+						  UserName<br>
+						  <input type="text" name="UserName"><br></br>
+
+						  E-mail<br>
+						  <input type="text" name="E-mail "><br><br>
+
+						  Password<br>
+						  <input type="password" name="Password "><br><br>
+
+
+						  <input type="submit" value="Registrase"  class="button">
+
+			</form>
+
+
+
+
+					<hr/ class="ver">
+
+			<div class="Contactanos">
+
+					<pre> <b> 			INOFRMACIÓN 		ACERCA DE NOSOTROS	CONTACTANOS	PREGUNTAS FRECUENTES </b></pre>
+
+		  	</div>
+
+
+</body>
+
+</html>
